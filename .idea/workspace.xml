@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4f7a308-117a-4915-b4ee-a2c20f8656a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Steps/SearchSteps.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/SearchSteps.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,23 +49,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchSteps.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SearchSteps.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Steps/SearchSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="271">
+              <caret line="53" column="8" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hook.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Hook.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Hook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="256">
+              <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#309#310#0" expanded="true" />
@@ -111,8 +113,8 @@
         <option value="$PROJECT_DIR$/src/test/java/Base/BaseUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/SearchPage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps/SearchSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/Hook.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps/SearchSteps.java" />
       </list>
     </option>
   </component>
@@ -124,9 +126,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="738" />
+    <option name="x" value="1382" />
+    <option name="y" value="174" />
+    <option name="width" value="1654" />
+    <option name="height" value="956" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -259,23 +262,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Cucumber java.Feature: search">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CucumberSearch" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="Scenario: Search for a word" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -300,28 +286,21 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Feature: search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/test/java/Features/search.feature" />
-      <option name="GLUE" value="Steps" />
-      <option name="myNameFilter" value="" />
-      <option name="myGeneratedName" value="Feature: search" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="WORKING_DIRECTORY" />
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="CucumberSearch" />
       <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -524,16 +503,39 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="false" name="Feature: search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/java/Features/search.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="myNameFilter" value="" />
+      <option name="myGeneratedName" value="Feature: search" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CucumberSearch" />
+      <envs />
+      <method />
+    </configuration>
     <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: search" />
       <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: Search for a word" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber java.Feature: search" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: search" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: Search for a word" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Cucumber java.Scenario: Search for a word" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -551,62 +553,62 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__search - 2017.03.23 at 16h 57m 03s.xml">
+    <history-entry file="Feature__search - 2017.03.24 at 10h 55m 37s.xml">
       <configuration name="Feature: search" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__search - 2017.03.23 at 16h 57m 36s.xml">
+    <history-entry file="Feature__search - 2017.03.24 at 10h 55m 51s.xml">
       <configuration name="Feature: search" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Search_for_a_word - 2017.03.23 at 16h 31m 48s.xml">
-      <configuration name="Scenario: Search for a word" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__search - 2017.03.24 at 11h 14m 04s.xml">
+      <configuration name="Feature: search" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Search_for_a_word - 2017.03.23 at 16h 33m 21s.xml">
-      <configuration name="Scenario: Search for a word" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__search - 2017.03.24 at 11h 14m 15s.xml">
+      <configuration name="Feature: search" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Search_for_a_word - 2017.03.23 at 16h 40m 01s.xml">
-      <configuration name="Scenario: Search for a word" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__search - 2017.03.24 at 11h 14m 53s.xml">
+      <configuration name="Feature: search" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Search_for_a_word - 2017.03.23 at 16h 40m 33s.xml">
-      <configuration name="Scenario: Search for a word" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__search - 2017.03.24 at 11h 16m 33s.xml">
+      <configuration name="Feature: search" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Search_for_a_word - 2017.03.23 at 16h 43m 14s.xml">
-      <configuration name="Scenario: Search for a word" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__search - 2017.03.24 at 11h 26m 59s.xml">
+      <configuration name="Feature: search" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Search_for_a_word - 2017.03.23 at 16h 44m 40s.xml">
-      <configuration name="Scenario: Search for a word" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__search - 2017.03.24 at 11h 27m 46s.xml">
+      <configuration name="Feature: search" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Search_for_a_word - 2017.03.23 at 16h 45m 23s.xml">
-      <configuration name="Scenario: Search for a word" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__search - 2017.03.24 at 11h 32m 02s.xml">
+      <configuration name="Feature: search" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Search_for_a_word - 2017.03.23 at 16h 47m 42s.xml">
-      <configuration name="Scenario: Search for a word" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__search - 2017.03.24 at 11h 42m 16s.xml">
+      <configuration name="Feature: search" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="738" extended-state="6" />
-    <editor active="false" />
+    <frame x="1382" y="174" width="1654" height="956" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47085202" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40248027" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34296876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26541716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22384937" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30214205" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -621,7 +623,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -646,14 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Base/BaseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -670,24 +664,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/SearchSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Hook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="256">
+          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#309#310#0" expanded="true" />
             <element signature="e#341#342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Base/BaseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Steps/SearchSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="53" column="8" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
           </folding>
         </state>
       </provider>
